@@ -1,15 +1,58 @@
+# --------------------
 # Python
+# --------------------
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
 
-# Env
-.env
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# VSCode
+# --------------------
+# Node.js / Frontend
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+coverage/
+*.log
+
+# --------------------
+# VSCode / IDEs
+# --------------------
 .vscode/
+.idea/
+*.swp
+*.swo
 
-# Node frontend
-frontend/node_modules/
-frontend/.next/
+# --------------------
+# System files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Project specific
+# --------------------
+# Secret configs
+.env
+# Ollama cache
+.ollama/
